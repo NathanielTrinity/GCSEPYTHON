@@ -1,0 +1,37 @@
+#Input explained
+#Input is a function
+#It allows a user to input data into
+#...a program via the keyboard
+#It can also display strings
+
+#here is a variable
+name = ""
+#here is a variable with input
+name = input("enter name")
+#This will display "enter name"
+#The user should then enter a string
+#Then press enter
+#The data entered will be stored in the variable
+
+#This data can be displayed later
+age = input("enter your age")
+fav_colour = input("enter your favourite colour")
+
+print("Hello",name,"you are",age,"and you like the colour", fav_colour,)
+
+#Casting introduced
+#Casting is a way to change data types
+#example:
+
+age = str(input("enter age"))
+ageInt = int(age)
+
+total = age+"10"
+print(total)
+
+#the following functions all you to "CAST"
+int()
+str()
+float()
+
+
