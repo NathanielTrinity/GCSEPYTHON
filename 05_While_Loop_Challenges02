@@ -1,0 +1,6 @@
+number1 = 0
+while number1 <= 5:
+    number1 = int(input("Please input a number"))
+
+print("The last number you entered was a", number1)
+    
