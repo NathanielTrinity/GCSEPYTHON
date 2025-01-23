@@ -1,0 +1,6 @@
+answer = 0
+while answer <= 50:
+    number = int(input("Please input a number"))
+    total = number + answer
+    print("The total is", total)
+    
