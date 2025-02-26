@@ -1,0 +1,7 @@
+Line = input("Enter the frist line of a nursery rhyme ")
+length = len(Line)
+print(f"This has {length} letters in it")
+num1 = int(input("enter a starting number"))
+num2 = int(input("enter an ending number"))
+section = Line [num1:num2]
+print (section)
