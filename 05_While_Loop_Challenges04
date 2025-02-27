@@ -1,0 +1,10 @@
+count = 0
+while True:
+    name = input("enter the name of somebody you want to invite to a party ")
+    print(name + " has now been invited")
+    count + 1
+    letter = input("do you want to invite somebody else (y/n): ")
+    if letter == "n":
+        break
+
+print(count)
