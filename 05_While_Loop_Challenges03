@@ -1,0 +1,9 @@
+number = int(input("Enter a number "))
+firstNum = number
+total = number
+letter = "y"
+while letter == "y":
+    num = int(input("Enter another number "))
+    total = total + num 
+    letter = input("Do you want to add another number? (y/n): ")
+print("The total is:", total)
