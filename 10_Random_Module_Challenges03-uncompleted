@@ -1,0 +1,4 @@
+import random
+
+heads_tails = ["h", "t"]
+coin = random.choice(heads_tails)
