@@ -1,0 +1,13 @@
+import random
+
+num = random.randint(1,5)
+num1= int(input("pick a number"))
+if num1 == num:
+    print("well done")
+elif num1 > num:
+    print("your guess is too high ")
+    guess2 = input("guess again")
+elif num1 < num:
+    print("your guess is too low ")
+    guess2 = input("guess again")
+if guess2 == num:
