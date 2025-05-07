@@ -1,0 +1,10 @@
+cars = []
+while True:
+    answer = input("Input a car brand or press x to exit >>>")
+    
+    if answer == 'x':
+        print("exiting")
+        print(cars)
+        break
+    else:
+        cars.append(input(answer))
