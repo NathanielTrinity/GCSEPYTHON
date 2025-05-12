@@ -7,4 +7,4 @@ while True:
         print(cars)
         break
     else:
-        cars.append(input(answer))
+        cars.append(answer)
