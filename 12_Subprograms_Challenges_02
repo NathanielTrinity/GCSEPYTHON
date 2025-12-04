@@ -1,0 +1,33 @@
+def Menu():
+    print("Press 1 for Domination")
+    print("Press 2 for Team Deathmatch")
+    print("Press 3 for Headquarters\n")
+    
+    choice = int(input("Enter 1, 2, 3\n"))
+
+    if choice == 1:
+      print("option 1 chosen\n")
+      Domination()
+      
+    elif choice == 2:
+      print("option 2 chosen\n")
+      Team_Deathmatch()
+      
+    elif choice == 3:
+      print("option 3 chosen\n")
+      Headquarters()
+      
+    else:
+      print("please try again\n")
+      Menu()
+      
+def Domination():
+  print("You have chosen Domination\n")
+
+def Team_Deathmatch():
+  print("You have chosen Deathmatch\n")
+
+def Headquarters():
+  print("You have chosen Headquarters\n")
+      
+Menu()
