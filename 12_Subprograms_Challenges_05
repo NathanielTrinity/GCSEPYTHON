@@ -1,0 +1,45 @@
+def Menu():
+  loopAgain = 4
+  while loopAgain != 4:
+    print("Press 1 for think big")
+    print("Press 2 for think bigger")
+    print("Press 3 for winning")
+    print("Press 4 for winner")
+    print("Press 5 to exit")
+    
+choice = int(input("Enter 1, 2, 3, 4 or 5 to exit "))
+
+def thinkbig():
+  print("Think Big chosen\n")
+
+def thinkbigger():
+  print("Think Bigger chosen\n")
+
+def winning():
+  print("Winning chosen\n")
+
+def winner():
+  print("Winner chosen\n")
+
+      
+if choice == 1:
+    thinkbig()
+      
+elif choice == 2:
+    thinkbigger()
+    
+elif choice == 3:
+    winning()
+    
+elif choice == 4:
+    winner()
+      
+elif choice == 5:
+    print("bye")
+    
+elif choice >=6:
+    print("Invalid choice\n")
+    Menu()
+
+      
+Menu()
